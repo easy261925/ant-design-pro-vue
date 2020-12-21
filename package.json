@@ -1,7 +1,8 @@
 {
-  "name": "ant-design-pro-vue",
-  "version": "3.0.0",
-  "private": true,
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
+  "author": "{{author}}",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
