@@ -1,8 +1,8 @@
 {
-  "name": "{{projectName}}",
-  "version": "{{projectVersion}}",
-  "description": "{{projectDescription}}",
-  "author": "{{author}}",
+  "name": "ant-design-pro-vue",
+  "version": "1.0.0",
+  "description": "ant-design-pro-vue",
+  "author": "cc",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
