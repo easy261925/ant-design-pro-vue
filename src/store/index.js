@@ -11,13 +11,16 @@ import permission from './modules/permission'
 // import permission from './modules/async-router'
 import getters from './getters'
 
+import account from './modules/account'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   modules: {
     app,
     user,
-    permission
+    permission,
+    account
   },
   state: {
 

@@ -26,6 +26,12 @@ export const asyncRouterMap = [
             name: '机构管理',
             component: () => import('@/views/settings/organizations'),
             meta: { title: '机构管理', keepAlive: false }
+          },
+          {
+            path: '/settings/account',
+            name: '账户管理',
+            component: () => import('@/views/settings/account'),
+            meta: { title: '账户管理', keepAlive: false }
           }
         ]
       },
